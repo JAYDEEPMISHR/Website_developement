@@ -1,0 +1,50 @@
+.study{
+    display: inline-table;
+    padding: 20px 100px ;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.list .study:hover{
+    background: white;
+    color: black;
+    transition: 0.2s;
+    transition-property:var(-1900px);
+    border-radius: 3px;
+    visibility: visible;
+}
+
+.list .study:hover .subclass{
+visibility: visible;
+opacity: 10;
+}
+
+ul li{
+    display: inline-table;
+    text-decoration: none;
+    background-color: aquamarine;
+    list-style: none;
+    text-decoration: none;
+    border: white;
+    border-radius: 5px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+ul li ul li{
+    display: block;
+    position:relative;
+    list-style: none;
+    flex: 1;
+}
+ul li ul li a{
+    position: absolute;
+    top: 40px;
+    visibility:hidden;
+    background-color: aquamarine;
+}

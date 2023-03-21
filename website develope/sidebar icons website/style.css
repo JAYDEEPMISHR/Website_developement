@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+.hero img{
+    background-image: linear-gradient(rgb(167, 167, 202),rgb(167, 167, 202),), url(./images/1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.header{
+    position:absolute;
+}
